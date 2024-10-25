@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scrollbar-color",
+          "scrollbar-width"
+        ]
+      }
+    ],
+    "button-type": "off",
+    "highest-available-document-mode": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 113",
+    "not firefox <= 114"
+  ]
+}
